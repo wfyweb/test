@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2017-12-05 10:30:36
+ * @version $Id$
+ */
+.flow{
+      display: block;
+      width: 302px;
+      height: 116px;
+      background: url(../images/nav.png) 0 624px;
+      margin: 142px 0 0 10px;
+    }
+    .wrapper2 .newsList {
+        width: 80%;
+        margin: 120px auto 0;
+    }
+    .wrapper2 .newsList li {
+        width: 100%;
+    }
+    .wrapper2 .newsList li:hover p{
+      color:#F9B72D;
+    }
+    .wrapper2 .newsList li:hover i{
+      color:#F9B72D;
+    }
+    .wrapper2 .newsList li:hover span{
+      color:#F9B72D;
+    }
+    .wrapper2 .newsList li, .wrapper2 .newsList i, .wrapper2 .newsList p {
+        float: left;
+    }
+    .wrapper2 .newsList li i {
+        font-size: 22px;
+    }
+    .wrapper2 .newsList li p, .wrapper2 .newsList li span {
+        line-height: 30px;
+        padding: 0;
+    }
+    .wrapper2 .newsList li span {
+        float: right;
+    }

@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2017-12-05 09:23:33
+ * @version $Id$
+ */
+        .wrapper2 {
+            height: inherit !important;
+            min-height: 871px;
+            background-image: url(../images/page2.jpg);
+        }
+        .wrapper2 h1 {
+            display: block;
+            width: 70%;
+            text-align: center;
+            margin: 40px auto;
+            padding-bottom: 20px;
+            border-bottom: 1px dashed #333;
+        }
+        .wrapper2 p{
+            width: 74%;
+            margin:0 auto;
+            padding: 10px;
+            text-indent: 2em;
+        }
+        .wrapper2 img {
+            display: block;
+            max-width: 800px;
+            height: inherit;
+            margin: 0 auto;
+        }
+        .wrapper2 .bottomText {
+            float: right;
+            text-align: center;
+        }
+        .wrapper5 {
+            height: 1190px;
+            background-image: url(../images/page5.jpg);
+        }
+        .wrapper5 .flow {
+            float: left;
+            margin-top: 480px;
+            background-position: 0 -630px;
+        }

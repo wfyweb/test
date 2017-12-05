@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2017-12-05 09:57:45
+ * @version $Id$
+ */
+.flow {
+        display: block;
+        width: 302px;
+        height: 116px;
+        background: url(../images/nav.png) 0 370px;
+        margin: 142px 0 0 10px;
+    }
+    .wrapper2 .picList {
+        width: 98%;
+        margin: 25px 1%;
+    }
+    .wrapper2 .picList li {
+        float: left;
+        width: 255px;
+        height: 269px;
+        margin: 19px;
+        border-radius: 10px;
+        border: 4px solid #ffd308;
+        background-color: #fff;
+    }
+    .wrapper2 .picList li img {
+        width: 100%;
+        height: 219px;
+    }
+    .wrapper2 .pageClick {
+        float: left;
+        width: 40%;
+        margin: 50px 31% 0;
+    }
+    .wrapper2 .pageClick li {
+        float: left;
+        margin: 10px;
+        padding: 5px;
+        border: 1px solid #ffd308;
+        border-radius: 50px;
+    }
+    .wrapper2 .pageClick .thisclass {
+        margin: 10px;
+        padding: 5px;
+        background-color: #ffd308;
+        border-radius: 50px;
+    }
